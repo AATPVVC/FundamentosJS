@@ -1,4 +1,4 @@
-console.log("conexion con js correcta...")
+console.log("conexion con js correcta...");
 /*
 Dato: tipo texto(string)
 Concatenacion de texto con el signo +
