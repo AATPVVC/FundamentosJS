@@ -51,10 +51,11 @@ function ejercicio4() {
 // "El promedio es: 5.7"
 
 function ejercicio5() {
-    let nota1 = 4.2;
-    let nota2 = 1.5;
-    let promedio = num1 + num2;
-    alert(`El promedio es de: ${promedio}`)
+    let nota1 = 6.0;
+    let nota2 = 5.5;
+    let nota3 = 5.6;
+    let promedio = (nota1 + nota2 + nota3) / 3;
+    alert(`El promedio es: ${promedio}`)
 }
 
 
@@ -81,14 +82,20 @@ function ejercicio7() {
     } else {
         alert(`El numero es impar`)
     }
-
+}
 
     // EJERCICIO 8
     // Resultado esperado en alert:
     // "Estudiante aprobado"
 
     function ejercicio8() {
+        let nota = 4.5;
 
+        if(nota>=4.0) {
+            alert(`Estudiante aprobado`);
+        }else {
+            alert(`Estudiante reprobado`);
+        }
     }
 
 
@@ -97,7 +104,10 @@ function ejercicio7() {
     // "Precio final con descuento: $18000"
 
     function ejercicio9() {
-
+        let precio = 18000;
+        let porcentaje = 10;
+        let descuento = (precio * porcentaje) / 100
+        alert(`Precio final con descuento: ${descuento}`)
     }
 
 
@@ -106,5 +116,11 @@ function ejercicio7() {
     // "El número mayor es: 22"
 
     function ejercicio10() {
-
+        let num1 = 22;
+        let num2 = 10;
+        if (num1 > num2) {
+            alert(`El numero mayor es: ${num1}`);
+        } else {
+            alert(`El numero mayor es: ${num2}`);
+        }
     }
